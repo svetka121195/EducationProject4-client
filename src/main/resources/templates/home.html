@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+
+
+    <title>Home</title>
+
+</head>
+<body class="bg-light">
+
+<br/>
+<br/>
+<br/>
+
+
+<div class="container">
+    <div class="mx-auto" style="width: 250px;">
+        <form method="post" action="/authorization" class="form">
+            <div class="form-group ">
+                <h5>Please sign in:</h5>
+                <div class="form-group ">
+                    <input class="form-control" type="text" id="uName" name="login" placeholder="Login"/>
+                    <input class="form-control" type="password" id="uPass" name="password"
+                           placeholder="Password"/>
+                </div>
+                <button type="submit" value="Log in" class="btn btn-primary btn-block">Sign in</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
